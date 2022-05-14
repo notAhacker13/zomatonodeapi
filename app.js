@@ -9,8 +9,8 @@ let port=process.env.PORT || 1234;
 const mongo=require("mongodb");
 let mongoClient=mongo.MongoClient;
 
-let mongoUrl="mongodb://localhost:27017"; //for shell
-// let mongoUrl="mongodb+srv://winter:winterhascome13@cluster0.xkiub.mongodb.net/zomatopro?retryWrites=true&w=majority";
+// let mongoUrl="mongodb://localhost:27017"; //for shell
+let mongoUrl="mongodb+srv://winter:winterhascome13@cluster0.xkiub.mongodb.net/zomatopro?retryWrites=true&w=majority";
 let db;
 
 //connecting express to mongo 
